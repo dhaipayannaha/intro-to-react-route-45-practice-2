@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div>
             <h3>This is header</h3>
-            <nav>
+            <nav className='flex gap-3'>
                 <NavLink to='/'>Home</NavLink>
                 <NavLink to='/mobiles'>Mobiles</NavLink>
                 <NavLink to='/users'>Users</NavLink>
